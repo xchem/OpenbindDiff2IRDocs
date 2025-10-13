@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
+Openbind Diff2IR Documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+This GitHub will contain the working documentation for the Openbind Diffraction To Internal Release (Diff2IR) project.

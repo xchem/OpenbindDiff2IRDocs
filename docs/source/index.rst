@@ -12,3 +12,11 @@ Contents
 
 .. toctree::
    githubs
+   autopandda
+   data_distribution
+   high_occupancy_model_completion
+   ligand_autobuilding
+   autobuild_scoring
+   curation
+   low_occupancy_model_completion
+   water_completion

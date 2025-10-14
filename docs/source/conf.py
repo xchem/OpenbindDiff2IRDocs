@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Openbind Diff2IR'
+copyright = '2025, Openbind'
+author = 'Conor F Wild'
 
 release = '0.1'
 version = '0.1.0'

@@ -20,3 +20,4 @@ Contents
    curation
    low_occupancy_model_completion
    water_completion
+   model_selection

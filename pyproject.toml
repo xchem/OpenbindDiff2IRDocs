@@ -6,3 +6,9 @@ build-backend = "flit_core.buildapi"
 name = "OpenbindDiff2IR"
 authors = [{name = "Conor F Wild", email = "c.wild@diamond.ac.uk"}]
 dynamic = ["version", "description"]
+dependencies = [
+    "numpy",
+    "scipy",
+    "joblib",
+    'gemmi'
+ ]

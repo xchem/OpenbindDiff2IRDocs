@@ -12,3 +12,14 @@ dependencies = [
     "joblib",
     'gemmi'
  ]
+
+[tool.docstrfmt]
+# Wrap prose at 88 columns. Run via ./docs/format.sh — docstrfmt lives in .venv-fmt,
+# deliberately separate from .venv, because it depends on a newer sphinx/docutils than
+# the pinned pair the docs build against.
+line_length = 88
+# Match the existing style: 3-space directive bodies, "*" bullets, and leave section
+# underline characters alone rather than imposing docstrfmt's own hierarchy.
+indent_width = 3
+bullet_list_marker = "*"
+preserve_adornments = true

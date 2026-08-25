@@ -123,6 +123,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv-fmt
 env/
 venv/
 ENV/
@@ -154,3 +155,9 @@ dmypy.json
 cython_debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
+
+# esbonio diagnostic log
+.esbonio.log
+
+# autosummary stub output, regenerated on every build by api.rst
+docs/source/generated/

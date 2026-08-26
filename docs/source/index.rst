@@ -26,7 +26,6 @@ Contents
    :maxdepth: 1
    :caption: Components
 
-   autopandda
    data_distribution
    high_occupancy_model_completion
    ligand_autobuilding

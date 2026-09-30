@@ -264,3 +264,14 @@ appear under the proposal the data were collected on.
 
    **Work in progress.** An automatic notification to the visit's team leader on
    completion of collation is implemented but still in testing. 
+
+PanDDA2 mtz map conversion
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sometimes maps will appear misaligned with the model in Fragalysis. 
+
+To fix this, once you have copied over the event maps from the PanDDA run to the respective model building directory, you can run the following script:
+
+cd /dls_sw/i04-1/software/PanDDA2
+source ./venv/bin/activate
+python scripts/event_map_to_mtz.py event_maps_to_mtz {pandda_path} {model_building_dir_path}
